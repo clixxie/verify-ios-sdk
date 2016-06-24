@@ -1,6 +1,6 @@
 {
   "name": "VerifyIosSdk",
-  "version": "1.1",
+  "version": "1.2",
   "summary": "Nexmo Verify SDK for iOS",
   "homepage": "https://github.com/Nexmo/verify-ios-sdk",
   "license": {
@@ -11,8 +11,8 @@
     "Nexml": ""
   },
   "source": {
-    "git": "https://github.com/Nexmo/verify-ios-sdk",
-    "tag": "1.1"
+    "git": "https://github.com/clixxie/verify-ios-sdk",
+    "tag": "1.2"
   },
   "platforms": {
     "ios": "9.0"
