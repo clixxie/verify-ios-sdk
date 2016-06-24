@@ -19,11 +19,7 @@
   },
   "requires_arc": true,
   "source_files": [
-    "VerifyIosSdk",
-    "VerifyIosSdk/**/*.*",
-    "DeviceProperties",
-    "DeviceProperties/**/*.*",
-    "RequestSigning",
-    "RequestSigning/**/*.*"
+    "pod",
+    "pod/**/*.*"
   ]
 }
