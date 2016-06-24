@@ -1,6 +1,6 @@
 {
   "name": "VerifyIosSdk",
-  "version": "1.6",
+  "version": "1.7",
   "summary": "Nexmo Verify SDK for iOS",
   "homepage": "https://github.com/Nexmo/verify-ios-sdk",
   "license": {
@@ -8,28 +8,33 @@
     "file": "LICENSE"
   },
   "authors": {
-    "Nexml": ""
+    "Nexmo": ""
   },
   "source": {
     "git": "https://github.com/clixxie/verify-ios-sdk",
-    "tag": "1.6"
+    "tag": "1.7"
   },
   "platforms": {
     "ios": "9.0"
   },
   "requires_arc": true,
-  "preserve_paths": [
-    "pod",
-    "pod/*",
-    "pod/**",
-    "pod/*.*",
-    "pod/**/*.*"
-  ],
-  "source_files": [
-    "pod",
-    "pod/*",
-    "pod/**",
-    "pod/*.*",
-    "pod/**/*.*"
+  "default_subspecs": "VerifyIosSdk",
+  "subspecs": [
+    {
+      "name": "VerifyIosSdk",
+      "dependencies": {
+        "VerifyIosSdk/RequestSigning": [
+        ]
+      },
+      "source_files": "VerifyIosSdk/*.*"
+    },
+    {
+      "name": "RequestSigning",
+      "source_files": "RequestSigning/*.*"
+    },
+    {
+      "name": "DeviceProperties",
+      "source_files": "RequestSigning/*.*"
+    }
   ]
 }
