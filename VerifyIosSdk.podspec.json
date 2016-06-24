@@ -1,0 +1,29 @@
+{
+  "name": "VerifyIosSdk",
+  "version": "6.0",
+  "summary": "Nexmo Verify SDK for iOS",
+  "homepage": "https://github.com/Nexmo/verify-ios-sdk",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Nexml": ""
+  },
+  "source": {
+    "git": "https://github.com/Nexmo/verify-ios-sdk",
+    "tag": "6.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "requires_arc": true,
+  "source_files": [
+    "VerifyIosSdk",
+    "VerifyIosSdk/**/*.*",
+    "DeviceProperties",
+    "DeviceProperties/**/*.*",
+    "RequestSigning",
+    "RequestSigning/**/*.*"
+  ]
+}
